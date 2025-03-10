@@ -41,7 +41,7 @@ There are three core components all used to capture and analyze browser data:
 
 Model Context Protocol (MCP) is a capability supported by Anthropic AI models that
 allow you to create custom tools for any compatible client. MCP clients like Claude
-Desktop, Cursor, Cline or Zed can run an MCP server which "teaches" these clients
+Desktop, Cursor, Cline or Zed can run an MCP server which \"teaches\" these clients
 about a new tool that they can use.
 
 These tools can call out to external APIs but in our case, **all logs are stored locally** on your machine and NEVER sent out to any third-party service or API. BrowserTools MCP runs a local instance of a NodeJS API server which communicates with the BrowserTools Chrome Extension.
