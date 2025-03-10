@@ -122,7 +122,7 @@ server.tool(
         // Removed path due to bug... will change later anyways
         // const message = `Screenshot saved to: ${
         //   result.path
-        // }\nFilename: ${path.basename(result.path)}`;
+        // }\\nFilename: ${path.basename(result.path)}`;
         return {
           content: [
             {
